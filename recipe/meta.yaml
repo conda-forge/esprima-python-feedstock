@@ -23,6 +23,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
 
@@ -34,7 +35,7 @@ test:
 
 about:
   home: https://github.com/Kronuz/esprima-python
-  license: BSD 2-Clause "Simplified"
+  license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'ECMAScript parsing infrastructure for multipurpose analysis'
